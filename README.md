@@ -2,7 +2,8 @@
 
 > Download `msmpisdk.msi` and `msmpisetup.exe` from
 > [Microsoft-MPI](https://github.com/microsoft/Microsoft-MPI/releases).
-> Set correct paths in [CM  akeLists.txt](CMakeLists.txt).
+> 
+> Set correct paths in [CMakeLists.txt](CMakeLists.txt).
 
 - lab 1
     - Program: [lab1.c](lab1.c)
