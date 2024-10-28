@@ -1,6 +1,13 @@
 mpiexec -n 1 ./lab1
 Elapsed time of process 0: 0.000000 seconds
 
+mpiexec -n 2 ./lab1.exe
+
+Hello from process   0
+Hello from process   1
+Elapsed time of process 0: 0.000221 seconds
+Elapsed time of process 1: 0.000146 seconds
+
 mpiexec -n 4 ./lab1
 Elapsed time of process 0: 0.000383 seconds
 Elapsed time of process 1: 0.000167 seconds
