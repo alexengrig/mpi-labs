@@ -19,3 +19,7 @@ target_link_libraries(lab1 PRIVATE MPI::MPI_C)
 add_executable(lab1sync lab1sync.c)
 target_include_directories(lab1sync PRIVATE ${MPI_C_INCLUDE_DIR})
 target_link_libraries(lab1sync PRIVATE MPI::MPI_C)
+
+add_executable(lab2 lab2.c)
+target_include_directories(lab2 PRIVATE ${MPI_C_INCLUDE_DIR})
+target_link_libraries(lab2 PRIVATE MPI::MPI_C)

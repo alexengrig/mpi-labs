@@ -2,7 +2,7 @@
 
 > Download `msmpisdk.msi` and `msmpisetup.exe` from
 > [Microsoft-MPI](https://github.com/microsoft/Microsoft-MPI/releases).
-> 
+>
 > Set correct paths in [CMakeLists.txt](CMakeLists.txt).
 
 - lab 1
@@ -10,3 +10,8 @@
     - Output: [lab1.output.txt](lab1.output.txt)
     - Elapsed time: [lab1.time.txt](lab1.time.txt)
     - Program with ordered output: [lab1sync.c](lab1sync.c)
+- lab 2
+    - Program: [lab2.c](lab2.c)
+    - Output: [lab2.output.txt](lab2.output.txt)
+    - Elapsed time: [lab2.benchmark.txt](lab2.benchmark.txt)
+    - Benchmark runner: [lab2.runner.bat](lab2.runner.bat)
