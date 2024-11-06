@@ -1,0 +1,152 @@
+> mpiexec -n 3 lab3.exe
+Process 2 sends packet to process 0 for process 1 with data: Hello from 2
+Process 2 sent packet to process 0 for process 1 with data: Hello from 2
+Process 2 waits packet from process 0
+Process 2 received packet from process 1 by process 0 with data: Hello from 1
+Process 2 sends confirmation to process 1 by process 0 with data: Received by 2
+Process 2 sent confirmation to process 1 by process 0 with data: Received by 2
+Process 2 waits packet from process 0
+Process 2 received packet from process 1 by process 0 with data: Received by 1
+Process 2 waits packet from process 0
+Process 2 is terminating
+Elapsed time of process 2: 0.000585 seconds
+Process 1 sends packet to process 0 for process 2 with data: Hello from 1
+Process 1 sent packet to process 0 for process 2 with data: Hello from 1
+Process 1 waits packet from process 0
+Process 1 received packet from process 2 by process 0 with data: Hello from 2
+Process 1 sends confirmation to process 2 by process 0 with data: Received by 1
+Process 1 sent confirmation to process 2 by process 0 with data: Received by 1
+Process 1 waits packet from process 0
+Process 1 received packet from process 2 by process 0 with data: Received by 2
+Process 1 waits packet from process 0
+Process 1 is terminating
+Elapsed time of process 1: 0.000564 seconds
+Process 0 waits packet from any process
+Process 0 received packet from process 1 for process 2 with data: Hello from 1
+Process 0 sends packet to process 2 from process 1 with data: Hello from 1
+Process 0 sent packet to process 2 from process 1 with data: Hello from 1
+Process 0 waits packet from any process
+Process 0 received packet from process 2 for process 1 with data: Hello from 2
+Process 0 sends packet to process 1 from process 2 with data: Hello from 2
+Process 0 sent packet to process 1 from process 2 with data: Hello from 2
+Process 0 waits packet from any process
+Process 0 received packet from process 2 for process 1 with data: Received by 2
+Process 0 sends packet to process 1 from process 2 with data: Received by 2
+Process 0 sent packet to process 1 from process 2 with data: Received by 2
+Process 0 waits packet from any process
+Process 0 received packet from process 1 for process 2 with data: Received by 1
+Process 0 sends packet to process 2 from process 1 with data: Received by 1
+Process 0 sent packet to process 2 from process 1 with data: Received by 1
+Process 0 sends SIGTERM to process 1
+Process 0 sent SIGTERM to process 1
+Process 0 sends SIGTERM to process 2
+Process 0 sent SIGTERM to process 2
+Elapsed time of process 0: 0.000556 seconds
+
+> mpiexec -n 6 lab3.exe
+Process 4 sends packet to process 0 for process 3 with data: Hello from 4
+Process 4 sent packet to process 0 for process 3 with data: Hello from 4
+Process 4 waits packet from process 0
+Process 4 received packet from process 3 by process 0 with data: Received by 3
+Process 4 waits packet from process 0
+Process 4 is terminating
+Elapsed time of process 4: 0.001116 seconds
+Process 5 sends packet to process 0 for process 1 with data: Hello from 5
+Process 5 sent packet to process 0 for process 1 with data: Hello from 5
+Process 5 waits packet from process 0
+Process 5 received packet from process 1 by process 0 with data: Received by 1
+Process 5 waits packet from process 0
+Process 5 received packet from process 3 by process 0 with data: Hello from 3
+Process 5 sends confirmation to process 3 by process 0 with data: Received by 5
+Process 5 sent confirmation to process 3 by process 0 with data: Received by 5
+Process 5 waits packet from process 0
+Process 5 is terminating
+Elapsed time of process 5: 0.001161 seconds
+Process 0 waits packet from any process
+Process 0 received packet from process 1 for process 3 with data: Hello from 1
+Process 0 sends packet to process 3 from process 1 with data: Hello from 1
+Process 0 sent packet to process 3 from process 1 with data: Hello from 1
+Process 0 waits packet from any process
+Process 0 received packet from process 5 for process 1 with data: Hello from 5
+Process 0 sends packet to process 1 from process 5 with data: Hello from 5
+Process 0 sent packet to process 1 from process 5 with data: Hello from 5
+Process 0 waits packet from any process
+Process 0 received packet from process 2 for process 1 with data: Hello from 2
+Process 0 sends packet to process 1 from process 2 with data: Hello from 2
+Process 0 sent packet to process 1 from process 2 with data: Hello from 2
+Process 0 waits packet from any process
+Process 0 received packet from process 1 for process 5 with data: Received by 1
+Process 0 sends packet to process 5 from process 1 with data: Received by 1
+Process 0 sent packet to process 5 from process 1 with data: Received by 1
+Process 0 waits packet from any process
+Process 0 received packet from process 1 for process 2 with data: Received by 1
+Process 0 sends packet to process 2 from process 1 with data: Received by 1
+Process 0 sent packet to process 2 from process 1 with data: Received by 1
+Process 0 waits packet from any process
+Process 0 received packet from process 4 for process 3 with data: Hello from 4
+Process 0 sends packet to process 3 from process 4 with data: Hello from 4
+Process 0 sent packet to process 3 from process 4 with data: Hello from 4
+Process 0 waits packet from any process
+Process 0 received packet from process 3 for process 5 with data: Hello from 3
+Process 0 sends packet to process 5 from process 3 with data: Hello from 3
+Process 0 sent packet to process 5 from process 3 with data: Hello from 3
+Process 0 waits packet from any process
+Process 0 received packet from process 3 for process 1 with data: Received by 3
+Process 0 sends packet to process 1 from process 3 with data: Received by 3
+Process 0 sent packet to process 1 from process 3 with data: Received by 3
+Process 0 waits packet from any process
+Process 0 received packet from process 3 for process 4 with data: Received by 3
+Process 0 sends packet to process 4 from process 3 with data: Received by 3
+Process 0 sent packet to process 4 from process 3 with data: Received by 3
+Process 0 waits packet from any process
+Process 0 received packet from process 5 for process 3 with data: Received by 5
+Process 0 sends packet to process 3 from process 5 with data: Received by 5
+Process 0 sent packet to process 3 from process 5 with data: Received by 5
+Process 0 sends SIGTERM to process 1
+Process 0 sent SIGTERM to process 1
+Process 0 sends SIGTERM to process 2
+Process 0 sent SIGTERM to process 2
+Process 0 sends SIGTERM to process 3
+Process 0 sent SIGTERM to process 3
+Process 0 sends SIGTERM to process 4
+Process 0 sent SIGTERM to process 4
+Process 0 sends SIGTERM to process 5
+Process 0 sent SIGTERM to process 5
+Elapsed time of process 0: 0.001091 seconds
+Process 2 sends packet to process 0 for process 1 with data: Hello from 2
+Process 2 sent packet to process 0 for process 1 with data: Hello from 2
+Process 2 waits packet from process 0
+Process 2 received packet from process 1 by process 0 with data: Received by 1
+Process 2 waits packet from process 0
+Process 2 is terminating
+Elapsed time of process 2: 0.001134 seconds
+Process 1 sends packet to process 0 for process 3 with data: Hello from 1
+Process 1 sent packet to process 0 for process 3 with data: Hello from 1
+Process 1 waits packet from process 0
+Process 1 received packet from process 5 by process 0 with data: Hello from 5
+Process 1 sends confirmation to process 5 by process 0 with data: Received by 1
+Process 1 sent confirmation to process 5 by process 0 with data: Received by 1
+Process 1 waits packet from process 0
+Process 1 received packet from process 2 by process 0 with data: Hello from 2
+Process 1 sends confirmation to process 2 by process 0 with data: Received by 1
+Process 1 sent confirmation to process 2 by process 0 with data: Received by 1
+Process 1 waits packet from process 0
+Process 1 received packet from process 3 by process 0 with data: Received by 3
+Process 1 waits packet from process 0
+Process 1 is terminating
+Elapsed time of process 1: 0.001154 seconds
+Process 3 sends packet to process 0 for process 5 with data: Hello from 3
+Process 3 sent packet to process 0 for process 5 with data: Hello from 3
+Process 3 waits packet from process 0
+Process 3 received packet from process 1 by process 0 with data: Hello from 1
+Process 3 sends confirmation to process 1 by process 0 with data: Received by 3
+Process 3 sent confirmation to process 1 by process 0 with data: Received by 3
+Process 3 waits packet from process 0
+Process 3 received packet from process 4 by process 0 with data: Hello from 4
+Process 3 sends confirmation to process 4 by process 0 with data: Received by 3
+Process 3 sent confirmation to process 4 by process 0 with data: Received by 3
+Process 3 waits packet from process 0
+Process 3 received packet from process 5 by process 0 with data: Received by 5
+Process 3 waits packet from process 0
+Process 3 is terminating
+Elapsed time of process 3: 0.001100 seconds
