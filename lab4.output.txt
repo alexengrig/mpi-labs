@@ -1,0 +1,31 @@
+> mpiexec -n 5 lab4.exe
+Process 3 values: 8, 49, 95, 87, 40, 65, 44, 36, 40, 74,
+Elapsed time of process 3: 0.000262 seconds
+Process 4 values: 11, 29, 91, 82, 55, 91, 57, 9, 84, 26,
+Elapsed time of process 4: 0.000241 seconds
+Process 0 values: 1, 0, 31, 82, 40, 38, 20, 9, 29, 3,
+Elapsed time of process 0: 0.000543 seconds
+Process 1 values: 1, 52, 35, 96, 79, 79, 20, 90, 85, 3,
+Elapsed time of process 1: 0.000232 seconds
+Process 2 values: 5, 0, 31, 91, 94, 38, 32, 63, 29, 22,
+Elapsed time of process 2: 0.000488 seconds
+
+> mpiexec -n 9 lab4.exe
+Process 3 values: 93, 95, 11, 41, 75, 56, 64, 63, 58, 65, 15, 43, 65, 88,
+Elapsed time of process 3: 0.000308 seconds
+Process 5 values: 99, 92, 4, 99, 4, 9, 89, 8, 13, 69, 19, 31, 75, 12,
+Elapsed time of process 5: 0.000328 seconds
+Process 1 values: 86, 67, 51, 82, 14, 2, 7, 17, 3, 93, 11, 55, 24, 63,
+Elapsed time of process 1: 0.000306 seconds
+Process 8 values: 9, 69, 28, 85, 80, 89, 26, 94, 12, 92, 76, 63, 56, 15,
+Elapsed time of process 8: 0.000356 seconds
+Process 2 values: 90, 15, 47, 46, 29, 29, 20, 90, 46, 45, 63, 99, 94, 41,
+Elapsed time of process 2: 0.000539 seconds
+Process 4 values: 96, 44, 8, 36, 90, 82, 77, 35, 1, 17, 67, 87, 4, 66,
+Elapsed time of process 4: 0.000824 seconds
+Process 6 values: 3, 73, 68, 95, 51, 36, 2, 81, 57, 20, 71, 75, 46, 91,
+Elapsed time of process 6: 0.000538 seconds
+Process 7 values: 6, 21, 64, 90, 66, 62, 14, 22, 68, 72, 23, 19, 85, 37,
+Elapsed time of process 7: 0.000319 seconds
+Process 0 values: 3, 15, 4, 36, 4, 2, 2, 8, 1, 17, 11, 19, 4, 12,
+Elapsed time of process 0: 0.000904 seconds
