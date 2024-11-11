@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
     if (myRank == 0) {
         int senderRank;
         MPI_Status Status;
-        printf("\nHello from process %3d\n", myRank);
+        printf("Hello from process %3d\n", myRank);
         double startTime = MPI_Wtime();
         for (int i = 1; i < numberOfProcesses; i++) {
             MPI_Recv(
