@@ -15,3 +15,17 @@
     - Output: [lab2.output.txt](lab2.output.txt)
     - Elapsed time: [lab2.benchmark.txt](lab2.benchmark.txt)
     - Benchmark runner: [lab2.runner.bat](lab2.runner.bat)
+- lab 3
+    - Program: [lab3.c](lab3.c)
+    - Output: [lab3.output.txt](lab3.output.txt)
+    - Elapsed time: [lab3.benchmark.txt](lab3.benchmark.txt)
+    - Benchmark runner: [lab3.runner.bat](lab3.runner.bat)
+- lab 4
+    - Program: [lab4.c](lab4.c)
+    - Output: [lab4.output.txt](lab4.output.txt)
+    - Elapsed time: [lab4.benchmark.txt](lab4.benchmark.txt)
+    - Benchmark runner: [lab4.runner.bat](lab4.runner.bat)
+
+## [Petri net](https://en.wikipedia.org/wiki/Petri_net)
+
+<img src="petri-net.png" alt="Petri net" width="400px"/>
