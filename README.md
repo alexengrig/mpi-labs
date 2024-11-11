@@ -28,4 +28,4 @@
 
 ## [Petri net](https://en.wikipedia.org/wiki/Petri_net)
 
-<img src="petri-net.png" alt="Petri net" width="400px"/>
+<img src="petri-net.drawio.png" alt="Petri net" width="400px"/>
