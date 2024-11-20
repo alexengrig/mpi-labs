@@ -1,0 +1,21 @@
+> mpiexec -n 3 lab5.exe
+Process 0: N = 1, A = 0.200000
+Process 0: SUM = 10.000000
+Process 0: 0.000629 seconds
+Process 1: N = 1, A = 9.800000
+Process 1: SUM = 10.000000
+Process 1: 0.000635 seconds
+Process 2: N = 0, A = 7.900000
+Process 2: 0.000614 seconds
+
+> mpiexec -n 4 lab5.exe
+Process 2: N = 1, A = 0.400000
+Process 2: SUM = 1.900000
+Process 2: 0.000618 seconds
+Process 1: N = 0, A = 5.600000
+Process 1: 0.000581 seconds
+Process 0: N = 1, A = 1.500000
+Process 0: SUM = 1.900000
+Process 0: 0.000605 seconds
+Process 3: N = 0, A = 5.300000
+Process 3: 0.000584 seconds

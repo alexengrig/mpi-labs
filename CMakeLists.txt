@@ -31,3 +31,7 @@ target_link_libraries(lab3 PRIVATE MPI::MPI_C)
 add_executable(lab4 lab4.c)
 target_include_directories(lab4 PRIVATE ${MPI_C_INCLUDE_DIR})
 target_link_libraries(lab4 PRIVATE MPI::MPI_C)
+
+add_executable(lab5 lab5.c)
+target_include_directories(lab5 PRIVATE ${MPI_C_INCLUDE_DIR})
+target_link_libraries(lab5 PRIVATE MPI::MPI_C)
