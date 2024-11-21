@@ -30,6 +30,9 @@
     - Output: [lab5.output.txt](lab5.output.txt)
     - Elapsed time: [lab5.benchmark.txt](lab5.benchmark.txt)
     - Benchmark runner: [lab5.runner.bat](lab5.runner.bat)
+- lab 6
+    - Program: [lab6.c](lab6.c)
+    - Output: [lab6.output.txt](lab6.output.txt)
 
 ## [Petri net](https://en.wikipedia.org/wiki/Petri_net)
 

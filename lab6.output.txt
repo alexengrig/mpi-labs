@@ -1,0 +1,23 @@
+> mpiexec -n 8 lab6.exe
+Process 0 (matrix 0): subRank=0, value=1.000000, sum=16.000000, 0.001466 seconds
+Process 1 (matrix 1): subRank=0, value=2.000000, sum=20.000000, 0.001475 seconds
+Process 2 (matrix 0): subRank=1, value=3.000000, sum=16.000000, 0.001513 seconds
+Process 3 (matrix 1): subRank=1, value=4.000000, sum=20.000000, 0.001493 seconds
+Process 4 (matrix 0): subRank=2, value=5.000000, sum=16.000000, 0.001454 seconds
+Process 5 (matrix 1): subRank=2, value=6.000000, sum=20.000000, 0.001523 seconds
+Process 6 (matrix 0): subRank=3, value=7.000000, sum=16.000000, 0.001447 seconds
+Process 7 (matrix 1): subRank=3, value=8.000000, sum=20.000000, 0.001546 seconds
+
+> mpiexec -n 12 lab6.exe
+Process 0 (matrix 0): subRank=0, value=1.000000, sum=22.000000, 0.002221 seconds
+Process 1 (matrix 1): subRank=0, value=2.000000, sum=26.000000, 0.002064 seconds
+Process 2 (matrix 2): subRank=0, value=3.000000, sum=30.000000, 0.002078 seconds
+Process 3 (matrix 0): subRank=1, value=4.000000, sum=22.000000, 0.002188 seconds
+Process 4 (matrix 1): subRank=1, value=5.000000, sum=26.000000, 0.002131 seconds
+Process 5 (matrix 2): subRank=1, value=6.000000, sum=30.000000, 0.002168 seconds
+Process 6 (matrix 0): subRank=2, value=7.000000, sum=22.000000, 0.002251 seconds
+Process 7 (matrix 1): subRank=2, value=8.000000, sum=26.000000, 0.002010 seconds
+Process 8 (matrix 2): subRank=2, value=9.000000, sum=30.000000, 0.002186 seconds
+Process 9 (matrix 0): subRank=3, value=10.000000, sum=22.000000, 0.002234 seconds
+Process 10 (matrix 1): subRank=3, value=11.000000, sum=26.000000, 0.002129 seconds
+Process 11 (matrix 2): subRank=3, value=12.000000, sum=30.000000, 0.002228 seconds
