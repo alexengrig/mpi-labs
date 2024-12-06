@@ -9,6 +9,13 @@ set(MPI_C_LIBRARIES "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib
 
 set(CMAKE_INCLUDE_PATH ${MPI_C_INCLUDE_DIR} ${CMAKE_INCLUDE_PATH})
 set(CMAKE_LIBRARY_PATH ${MPI_C_LIBRARIES} ${CMAKE_LIBRARY_PATH})
+set(MPI_INCLUDE_DIRS ${MPI_C_INCLUDE_DIR})
+
+include_directories(${MPI_C_INCLUDE_DIR})
+link_directories("C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64")
+
+message(STATUS "MPI_INCLUDE_DIRS: ${MPI_INCLUDE_DIRS}")
+message(STATUS "MPI_LIBRARIES: ${MPI_LIBRARIES}")
 
 find_package(MPI REQUIRED)
 
@@ -39,3 +46,7 @@ target_link_libraries(lab5 PRIVATE MPI::MPI_C)
 add_executable(lab6 lab6.c)
 target_include_directories(lab6 PRIVATE ${MPI_C_INCLUDE_DIR})
 target_link_libraries(lab6 PRIVATE MPI::MPI_C)
+
+add_executable(lab7 lab7.c)
+target_include_directories(lab7 PRIVATE ${MPI_C_INCLUDE_DIR})
+target_link_libraries(lab7 PRIVATE MPI::MPI_C)

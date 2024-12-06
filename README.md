@@ -33,6 +33,11 @@
 - lab 6
     - Program: [lab6.c](lab6.c)
     - Output: [lab6.output.txt](lab6.output.txt)
+- lab 7
+  - Program: [lab7.c](lab7.c)
+  - Output: [lab7.output.txt](lab7.output.txt)
+  - Elapsed time: [lab7.benchmark.txt](lab7.benchmark.txt)
+  - Benchmark runner: [lab7.runner.bat](lab7.runner.bat)
 
 ## [Petri net](https://en.wikipedia.org/wiki/Petri_net)
 
